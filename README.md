@@ -36,7 +36,7 @@
 
 ### 1. 使用1Panel创建计划任务
 
-![new_cron_task](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/new_cron_task.png?raw=true)
+![new_cron_task](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/new_cron_task.png)
 
 按上图方式创建计划任务。  
 
@@ -48,13 +48,13 @@
 
 点击执行按钮，可即可开始同步。
 
-![run_cron_task](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/run_cron_task.png?raw=true)
+![run_cron_task](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/run_cron_task.png)
 
 ### 3. 查看同步脚本的执行情况
 
 点击任务名称或【报告】按钮即可查看同步脚本的执行日志。
 
-![run_cron_task_result](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/run_cron_task_result.png?raw=true)
+![run_cron_task_result](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/run_cron_task_result.png)
 
 注意：目前1Panel的计划任务执行失败的话查看不了任何日志，这个时候去【主机】>【文件】然后进入：  
 
@@ -66,13 +66,13 @@
 
 进入【应用商店】点击右上角的【更新应用列表】即可查看同步到的本地应用。
 
-![read_cron_task_result](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/read_cron_task_result.png?raw=true)
+![read_cron_task_result](https://github.com/liuqianhe/1panel-appstore/blob/main/docs/img/read_cron_task_result.png)
 
 ## 配置项详解
 
 [local_appstore_sync_helper2.sh](https://github.com/liuqianhe/1panel-appstore/blob/main/local_appstore_sync_helper2.sh) 里包含了一些配置项，可以根据自己的需求进行修改。
 
-### PS:不是复制下面的执行，下面只是一个解释内容，脚本是这个文件 [local_appstore_sync_helper.sh](https://gitee.com/svip520/1panel-appstore/blob/master/local_appstore_sync_helper.sh)
+### PS:不是复制下面的执行，下面只是一个解释内容，脚本是这个文件 [local_appstore_sync_helper2.sh](https://github.com/liuqianhe/1panel-appstore/blob/main/local_appstore_sync_helper2.sh)
 
 ```bash
 # 1panel本地app的目录（如果不是默认安装，需修改该目录）
